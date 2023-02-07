@@ -9,6 +9,11 @@ import {
   AiFillPhone,
 } from "react-icons/ai";
 import { FaWhatsappSquare } from "react-icons/fa";
+import profile from "./assets/profile.jpg"
+import software from "./assets/software.jpg"
+import farmaceutica from "./assets/farmaceutica.jpg"
+import geolocalizacao from "./assets/geolocalizacao.jpg"
+
 
 function App() {
   return (
@@ -20,7 +25,7 @@ function App() {
         className="min-h-screen text-center mt-4 flex flex-col justify-center "
       >
         <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-56 h-56 relative overflow-hidden md:h-96 md:w-96 mb-5 mt-20">
-          <img src="/profile.jpg" layout="fill" objectFit="cover" />
+          <img src={profile} layout="fill" objectFit="cover" />
         </div>
         <h1 className="text-3xl md:text-5xl font-medium text-teal-500 mb-2">
           ÁLVARO FERREIRA
@@ -80,7 +85,7 @@ function App() {
 
         <div className="mt-4 flex flex-col md:flex-row gap-8">
           <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="software.png" className="w-48" alt="gambar" />
+            <img src={software} className="w-48" alt="gambar" />
             <h2 className="text-xl">Frontend Web e Mobile</h2>
             <p className="text-gray-500">
               Sempre priorizando a utilização das melhores praticas e
@@ -156,7 +161,7 @@ function App() {
 
           <div className="w-full md:w-2/6 shadow-md rounded ">
             <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
-              <img src="farmaceutica.jpg" layout="fill" objectFit="cover" />
+              <img src={farmaceutica} layout="fill" objectFit="cover" />
             </div>
             <div className="p-4">
               <h1 className="text-xl font-medium">
