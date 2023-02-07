@@ -10,9 +10,12 @@ import {
 } from "react-icons/ai";
 import { FaWhatsappSquare } from "react-icons/fa";
 import profile from "./assets/profile.jpg"
-import software from "./assets/software.jpg"
+import software from "./assets/software.png"
 import farmaceutica from "./assets/farmaceutica.jpg"
 import geolocalizacao from "./assets/geolocalizacao.jpg"
+import planoSaude from "./assets/plano-saude.jpg"
+import cloud from "./assets/cloud.png"
+import trophy from "./assets/trophy.png"
 
 
 function App() {
@@ -79,7 +82,7 @@ function App() {
         <p className="mt-1 text-md mb-10">
           Tenho sólida experiencia em desenvolvimento de aplicações completas
           (full-stack) da prototipação, arquitetura, banco de dados, api,
-          frontend a configuração e deploy em servidores clound como AWS com a
+          frontend a configuração e deploy em servidores cloud como AWS com a
           utilização de metodologias ágeis como o scrum.
         </p>
 
@@ -101,7 +104,7 @@ function App() {
           </div>
 
           <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="cloud.png" className="w-48" alt="gambar" />
+            <img src={cloud} className="w-48" alt="gambar" />
             <h2 className="text-xl">Backend, API's & Integrações</h2>
             <p className="text-gray-500">
               Também pensando em qualidade e escalabilidade, ao desenvolver os
@@ -117,7 +120,7 @@ function App() {
           </div>
 
           <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
-            <img src="trophy.png" className="w-48" alt="gambar" />
+            <img src={trophy} className="w-48" alt="gambar" />
             <h2 className="text-xl">PO & Scrum Master</h2>
             <p className="text-gray-500">
               Tendo também experiencia com gestão ágil, acredito poder colabolar
@@ -143,7 +146,7 @@ function App() {
         <div className="flex flex-col md:flex-row gap-8 mt-4">
           <div className="w-full md:w-2/6 shadow-md rounded ">
             <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
-              <img src="geolocalizacao.jpg" layout="fill" objectFit="cover" />
+              <img src={geolocalizacao} layout="fill" objectFit="cover" />
             </div>
             <div className="p-4">
               <h1 className="text-xl font-medium">
@@ -179,7 +182,7 @@ function App() {
 
           <div className="w-full md:w-2/6 shadow-md rounded ">
             <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
-              <img src="plano-saude.jpg" layout="fill" objectFit="cover" />
+              <img src={planoSaude} layout="fill" objectFit="cover" />
             </div>
             <div className="p-4">
               <h1 className="text-xl font-medium">
