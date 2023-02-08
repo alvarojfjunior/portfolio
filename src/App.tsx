@@ -1,4 +1,4 @@
-import "./App.css";
+//import "./App.css";
 import Navbar from "./components/Navbar";
 import {
   AiFillLinkedin,
@@ -28,7 +28,7 @@ function App() {
         className="min-h-screen text-center mt-4 flex flex-col justify-center "
       >
         <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-56 h-56 relative overflow-hidden md:h-96 md:w-96 mb-5 mt-20">
-          <img src={profile} layout="fill" objectFit="cover" />
+          <img src={profile} />
         </div>
         <h1 className="text-3xl md:text-5xl font-medium text-teal-500 mb-2">
           ÁLVARO FERREIRA
@@ -43,34 +43,34 @@ function App() {
         </p>
 
 
-        <div className="text-5xl py-4 flex justify-center gap-16 text-gray-600 mt-10 mb-10">
+        <div className="text-5xl py-4 flex justify-center gap-10">
           <a
             target="_blank"
             href="https://www.linkedin.com/in/alvarojfjunior/"
             rel="noreferrer"
           >
-            <AiFillLinkedin className="cursor-pointer" />
+            <AiFillLinkedin className="cursor-pointer text-gray-600" />
           </a>
           <a
             target="_blank"
             href="https://github.com/alvarojfjunior/"
             rel="noreferrer"
           >
-            <AiFillGithub className="cursor-pointer" />
+            <AiFillGithub className="cursor-pointer text-gray-600" />
           </a>
           <a
             target="_blank"
             href="https://www.instagram.com/alvarojfjunior/"
             rel="noreferrer"
           >
-            <AiFillInstagram className="cursor-pointer" />
+            <AiFillInstagram className="cursor-pointer text-gray-600" />
           </a>
           <a
             target="_blank"
             href="https://wa.me/5538991611042?text=Ol%C3%A1+%C3%81lvaro%2C+vi+seu+portf%C3%B3lio+e+queria+saber+um+pouco+mais+sobre+voc%C3%AA%21"
             rel="noreferrer"
           >
-            <FaWhatsappSquare className="cursor-pointer" />
+            <FaWhatsappSquare className="cursor-pointer text-gray-600" />
           </a>
         </div>
       </section>
@@ -146,25 +146,23 @@ function App() {
         <div className="flex flex-col md:flex-row gap-8 mt-4">
           <div className="w-full md:w-2/6 shadow-md rounded ">
             <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
-              <img src={geolocalizacao} layout="fill" objectFit="cover" />
+              <img src={geolocalizacao} />
             </div>
             <div className="p-4">
               <h1 className="text-xl font-medium">
-                Sistema de gestão de frotas utilizando geolocalização.
+                ERP de gestão de frotas utilizando geolocalização.
               </h1>
               <p className="">
                 Aplicação que monitora e controla em tempo real a frota do
                 cliente (multinacional).
               </p>
-              <br />
-              <br />
-              <p className="text-sm text-gray-500">2021</p>
+              <p className="text-sm text-gray-500 mt-20">2021</p>
             </div>
           </div>
 
           <div className="w-full md:w-2/6 shadow-md rounded ">
             <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
-              <img src={farmaceutica} layout="fill" objectFit="cover" />
+              <img src={farmaceutica} />
             </div>
             <div className="p-4">
               <h1 className="text-xl font-medium">
@@ -176,13 +174,13 @@ function App() {
                 medicamentos.
               </p>
               <br />
-              <p className="text-sm text-gray-500">2022</p>
+              <p className="text-sm text-gray-500 mt-5">2022</p>
             </div>
           </div>
 
           <div className="w-full md:w-2/6 shadow-md rounded ">
             <div className="h-48 md:h-56 rounded-t-md relative overflow-hidden">
-              <img src={planoSaude} layout="fill" objectFit="cover" />
+              <img src={planoSaude} />
             </div>
             <div className="p-4">
               <h1 className="text-xl font-medium">
@@ -201,52 +199,52 @@ function App() {
 
       <section id="footer" className="mt-5 rounded bg-black py-8 px-8">
         <div className="text-white md:text-center">
-          <h1 className="font-medium text-lg">Contact Me</h1>
-          <p>Ficou com alguma dúvida, ou quer falar comigo?</p>
+          <h1 className="font-medium text-lg text-white text-center">Contact Me</h1>
+          <p className="text-center">Ficou com alguma dúvida, ou quer falar comigo?</p>
 
-          <ul className="md:flex justify-center gap-4 mt-5 mb-5">
-            <li className="flex items-center gap-2">
-              <AiFillMail />
+          <ul className="md:flex justify-center gap-10 mt-5 mb-5">
+            <li className="flex justify-center gap-2">
+              <AiFillMail className="mt-1"/>
               <p>alvarojfjunior@gmail.com</p>
             </li>
-            <li className="flex items-center gap-2">
-              <AiFillEnvironment />
+            <li className="flex justify-center gap-2">
+              <AiFillEnvironment className="mt-1"/>
               <p>Montes Claros, MG. Brasil</p>
             </li>
-            <li className="flex items-center gap-2">
-              <AiFillPhone />
+            <li className="flex justify-center gap-2">
+              <AiFillPhone className="mt-1"/>
               <p>+55 38 99161-1042</p>
             </li>
           </ul>
 
-          <div className="flex text-xl text-white gap-4 mt-2 md:justify-center">
+          <div className="flex justify-center text-xl text-white gap-4 mt-2 md:justify-center">
             <a
               target="_blank"
               href="https://www.linkedin.com/in/alvarojfjunior/"
               rel="noreferrer"
             >
-              <AiFillLinkedin className="cursor-pointer" />
+              <AiFillLinkedin className="cursor-pointer text-gray-300" />
             </a>
             <a
               target="_blank"
               href="https://github.com/alvarojfjunior/"
               rel="noreferrer"
             >
-              <AiFillGithub className="cursor-pointer" />
+              <AiFillGithub className="cursor-pointer text-gray-300" />
             </a>
             <a
               target="_blank"
               href="https://www.instagram.com/alvarojfjunior/"
               rel="noreferrer"
             >
-              <AiFillInstagram className="cursor-pointer" />
+              <AiFillInstagram className="cursor-pointer text-gray-300" />
             </a>
             <a
               target="_blank"
               href="https://wa.me/5538991611042?text=Ol%C3%A1+%C3%81lvaro%2C+vi+seu+portf%C3%B3lio+e+queria+saber+um+pouco+mais+sobre+voc%C3%AA%21"
               rel="noreferrer"
             >
-              <FaWhatsappSquare className="cursor-pointer" />
+              <FaWhatsappSquare className="cursor-pointer text-gray-300" />
             </a>
           </div>
 
