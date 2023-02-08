@@ -161,7 +161,7 @@ function App() {
                 de saúde do brasil, incluindo projetos de stream como
                 atendimento de paciente remoto.
               </p>
-              <p className="text-sm text-gray-500 mt-5">2023</p>
+              <p className="text-sm text-gray-500 mt-5">2022 - 2023</p>
             </div>
           </div>
 
