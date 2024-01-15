@@ -36,12 +36,12 @@ function App() {
           ÁLVARO FERREIRA
         </h1>
         <h3 className="text-xl md:text-2xl text-teal-500 mb-2">
-          Desenvolvedor fullstack Web & Mobile
+          Web Javascript Fullstack Engineer
         </h3>
         <p className="text-md py-1 text-gray-800 md:text-xl mt-5">
-          Graduado em sistemas de informações e Gestão de T.I. e com mais de 8
-          anos de experiencia como desenvolvedor fullstack e techlead focado
-          principalmente em NodeJS e ReactJS.{" "}
+          Graduated in Information Systems and IT Management, with over 8 years
+          of experience as a full-stack developer and tech lead, primarily
+          focused on NodeJS and ReactJS.{" "}
         </p>
 
         <div className="text-5xl py-4 flex justify-center gap-10">
@@ -78,13 +78,14 @@ function App() {
 
       <section id="service" className="">
         <h1 className="text-xl font-medium">
-          Serviços que tenho experiencia e posso te ajudar:
+          Services I have expertise in and can assist you with:
         </h1>
         <p className="mt-1 text-md mb-10">
-          Tenho sólida experiencia em desenvolvimento de aplicações completas
-          (full-stack) da prototipação, arquitetura, banco de dados, api,
-          frontend a configuração e deploy em servidores cloud como AWS com a
-          utilização de metodologias ágeis como o scrum.
+          I possess substantial experience in developing end-to-end applications
+          (full-stack) from prototyping, architecture, database design, API
+          development, frontend, to configuration and deployment on cloud
+          servers like AWS. I am well-versed in agile methodologies such as
+          Scrum.
         </p>
 
         <div className="mt-4 flex flex-col md:flex-row gap-8">
@@ -92,11 +93,11 @@ function App() {
             <img src={software} className="w-48" alt="gambar" />
             <h2 className="text-xl">Frontend Web e Mobile</h2>
             <p className="text-gray-500">
-              Sempre priorizando a utilização das melhores praticas e
-              tecnologias para manter a qualidade, desempenho e escalabilidade
-              dos frontends e aplicações mobile.
+              Always prioritizing the use of best practices and cutting-edge
+              technologies to ensure the quality, performance, and scalability
+              of frontends and mobile applications.
             </p>
-            <p className="text-xl ">Ferramentas que uso</p>
+            <p className="text-xl ">Tools</p>
             <ul>
               <li>ReactJS</li>
               <li>React Native</li>
@@ -107,31 +108,33 @@ function App() {
 
           <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
             <img src={cloud} className="w-48" alt="gambar" />
-            <h2 className="text-xl">Backend, API's & Integrações</h2>
+            <h2 className="text-xl">Backend, API's & Integrations</h2>
             <p className="text-gray-500">
-              Também pensando em qualidade e escalabilidade, ao desenvolver os
-              backends priorizo a descrição e responsabilidade para tratar de
-              dados e seguranaça interna dos clientes.
+              With a keen focus on quality and scalability, my approach to
+              backend development centers around precision in description and
+              responsibility. This is particularly crucial when addressing the
+              intricacies of client data and internal security.
             </p>
-            <p className="text-xl">Ferramentas que uso</p>
+            <p className="text-xl">Tools</p>
             <ul>
               <li>NodeJS</li>
               <li>NestJS</li>
-              <li>Banco de dados SQL e noSQL</li>
+              <li>Database SQL e noSQL</li>
               <li>Typescript</li>
             </ul>
           </div>
 
           <div className="w-full shadow-lg rounded-md px-4 py-5 flex flex-col items-center text-center gap-1">
             <img src={trophy} className="w-48" alt="gambar" />
-            <h2 className="text-xl">Gestão Ágil</h2>
+            <h2 className="text-xl">Agile Methodologies</h2>
             <p className="text-gray-500">
-              Ao decorrer da carreira tive a oportunidade de trabalhar com Ágil
-              como scrum team, PO e scrum master. Acredito que tais habilidades
-              podem não só colaborar para a execução de minhas atividades, mas
-              também ajudar o time como um todo.
+              Throughout my career, I've had the opportunity to work with Agile
+              methodologies, serving as a Scrum team member, Product Owner (PO),
+              and Scrum Master. I believe that these skills can not only
+              contribute to the execution of my tasks but also enhance the
+              overall effectiveness of the team.
             </p>
-            <p className="text-xl ">Ferramentas que uso</p>
+            <p className="text-xl ">Tools</p>
             <ul>
               <li>Scrum</li>
               <li>Kanban</li>
@@ -142,9 +145,10 @@ function App() {
       </section>
 
       <section id="license" className="mt-10">
-        <h1 className="text-xl font-medium">Portfólio</h1>
+        <h1 className="text-xl font-medium">Portfolio</h1>
         <p className="mt-1 text-md">
-          Aqui estão alguns dos projetos que já tive a oportunidade de atuar
+          Here are some of the projects in which I've had the opportunity to
+          participate:
         </p>
 
         <div className="flex flex-col md:flex-row gap-8 mt-3">
@@ -153,13 +157,11 @@ function App() {
               <img src={planoSaude} />
             </div>
             <div className="p-4">
-              <h1 className="text-xl font-medium">
-                Ferramentas para plano de saúde
-              </h1>
+              <h1 className="text-xl font-medium">Healthcare Tools</h1>
               <p className="">
-                Manutenção e criação de ferramentas para um dos maiores planos
-                de saúde do brasil, incluindo projetos de stream como
-                atendimento de paciente remoto.
+                Engaged in the maintenance and development of tools for one of
+                the largest health plans in Brazil, including streaming projects
+                such as remote patient care.
               </p>
               <p className="text-sm text-gray-500 mt-5">2022 - 2023</p>
             </div>
@@ -171,11 +173,12 @@ function App() {
             </div>
             <div className="p-4">
               <h1 className="text-xl font-medium">
-                Portal de atendimento híbrido via whatsapp
+                Hybrid Customer Service Portal via WhatsApp
               </h1>
               <p className="">
-                Saas de atendimento ao cliente podendo ser de forma automática
-                (bot), ou por atendente e setores.
+                SaaS customer service portal capable of operating either
+                automatically (using a bot) or through attendants and segmented
+                departments.
               </p>
               <br />
               <p className="text-sm text-gray-500 mt-2">2022</p>
@@ -188,12 +191,12 @@ function App() {
             </div>
             <div className="p-4">
               <h1 className="text-xl font-medium">
-                Sistema de controle de produção e validação de produtos
-                farmaceuticos
+                Production Control and Validation System for Pharmaceutical
+                Products
               </h1>
               <p className="">
-                ERP na área farmaceutica controla todo o fluxo de uma fabrica de
-                medicamentos.
+                An ERP system tailored for the pharmaceutical industry,
+                overseeing the entire workflow of a drug manufacturing facility.
               </p>
               <br />
               <p className="text-sm text-gray-500">2022</p>
@@ -208,11 +211,11 @@ function App() {
             </div>
             <div className="p-4">
               <h1 className="text-xl font-medium">
-                ERP de gestão de frotas utilizando geolocalização.
+                Fleet Management ERP with Geolocation Integration
               </h1>
               <p className="">
-                Aplicação que monitora e controla em tempo real a frota do
-                cliente (multinacional).
+                An application designed to monitor and control the client's
+                (multinational) fleet in real-time using geolocation technology.
               </p>
               <br />
               <p className="text-sm text-gray-500">2021</p>
@@ -225,12 +228,13 @@ function App() {
             </div>
             <div className="p-4">
               <h1 className="text-xl font-medium">
-                Teachlead de ERP de gestão de Call Center.
+                Tech Lead for Call Center Management ERP
               </h1>
               <p className="">
-                ERP de controle e gestão de call center (ativo e passivo). Neste
-                projeto tive a oportunidade de trabalhar com integrações de Pabx
-                voip.
+                Led the development of an ERP system for the control and
+                management of call centers (both outbound and inbound). In this
+                project, I had the opportunity to work on integrations with VoIP
+                PBX systems.
               </p>
               <p className="text-sm text-gray-500">2020 - 2021</p>
             </div>
@@ -242,11 +246,12 @@ function App() {
             </div>
             <div className="p-4">
               <h1 className="text-xl font-medium">
-                Saas de automação comercial.
+                Commercial Automation SaaS
               </h1>
               <p className="">
-                ERP para empresas com controle de contas, estoque, notas, e
-                processos internos em geral.
+                Developed an ERP solution for companies, providing comprehensive
+                control over accounts, inventory, invoices, and overall internal
+                processes.
               </p>
               <br />
               <p className="text-sm text-gray-500 pt-7">2019 - 2020</p>
@@ -261,7 +266,7 @@ function App() {
             Contact Me
           </h1>
           <p className="text-center">
-            Ficou com alguma dúvida, ou quer falar comigo?
+            Do you have any questions or would you like to get in touch
           </p>
 
           <ul className="md:flex justify-center gap-10 mt-5 mb-5">
@@ -314,7 +319,7 @@ function App() {
 
           <p className="text-center text-sm text-gray-300 sm:text-center">
             © 2022
-            <a href="#"> Álvaro Ferreira </a>. Todos os direitos reservados.
+            <a href="#"> Álvaro Ferreira </a>. All rights reserved.
           </p>
         </div>
       </section>
